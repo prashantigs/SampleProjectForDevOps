@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = {"pretty"},
-//        tags= ("@fb1"),
+        tags= ("@fb1"),
         features = {"src/test/resources/features/FB"},
         glue = {"StepDefinitions","StepDefFile"})
 public class RunnerOne {
